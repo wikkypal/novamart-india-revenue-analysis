@@ -8,7 +8,7 @@ The analysis focuses on monthly revenue performance, product category volume, ge
 
 ## Dashboard
 
-![Novamart India Revenue Dashboard](dashboard/novamart-dashboard.png)
+![Novamart India Revenue Dashboard](novamart-dashboard.png)
 
 ## Objectives
 - Track monthly revenue performance
