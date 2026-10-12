@@ -40,11 +40,6 @@ The analysis focuses on monthly revenue performance, product category volume, ge
 - Investigate the April to June revenue decline
 - Review the strategy for low-performing categories
 
-## Repository structure
-- data/ : raw and cleaned dataset
-- dashboard/ : Excel workbook
-- images/ : dashboard screenshot
-
 ## Author
 
 **Damilola Olabode Ogundiran**
