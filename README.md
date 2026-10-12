@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyses Novamart India's revenue performance and customer purchasing behaviour for Q2 2022.
+An interactive Excel dashboard analysing Novamart India's revenue distribution and customer purchasing behaviour for Q2 2022. Built as part of my data analytics training with Vephla.
 
 The analysis focuses on monthly revenue performance, product category volume, geographic revenue distribution, state-level purchasing activity, and revenue contribution by product category and state.
 
@@ -10,56 +10,40 @@ The analysis focuses on monthly revenue performance, product category volume, ge
 
 ![Novamart India Revenue Dashboard](dashboard/novamart-dashboard.png)
 
-## Key Metrics
+## Objectives
+- Track monthly revenue performance
+- Compare product categories by volume and revenue
+- Identify top cities and states by revenue
 
-- **Total Revenue:** ₹75M
-- **Total Quantity:** 116,443 Units
-- **Average Order Value:** ₹696
-- **Top State:** Maharashtra
+## Tools
+- Microsoft Excel: data cleaning, pivot tables, pivot charts, slicers
 
-## Key Insights
+## Key metrics
+| Metric | Value |
+|---|---|
+| Total revenue | ₹75M |
+| Units sold | 116,443 |
+| Average order value | ₹696 |
+| Top state | Maharashtra |
+| Top city | Bengaluru (₹7.06M) |
 
-### Revenue Performance
+## Key insights
+1. Sets drove ₹37.65M, about 50% of total revenue.
+2. Sets and kurtas sold similar volumes (45,206 vs 44,953 units), but sets earned about 1.8x more revenue.
+3. Revenue peaked in April (₹27.57M) and declined about 18% by June.
+4. Bengaluru was the top city, but Maharashtra was the top state (30.35% of top-five revenue).
+5. Sarees and dupattas contributed very little revenue.
 
-Revenue increased significantly from March to April, reaching approximately ₹27.6M, before declining to approximately ₹22.6M in June.
+## Recommendations
+- Prioritise stock and promotions for the Set category
+- Upsell kurta buyers into sets
+- Investigate the April to June revenue decline
+- Review the strategy for low-performing categories
 
-### Product Category Performance
-
-The **Set** category recorded the highest sales volume at 45,206 units, followed by **Kurta** at 44,953 units.
-
-### Geographic Performance
-
-Maharashtra generated the highest revenue share at **30.35%**, followed by Karnataka at **23.95%**.
-
-### State-Level Purchasing Activity
-
-Maharashtra recorded the highest quantity at **20,328 units**, followed by Karnataka with **15,900 units**.
-
-### Revenue by City
-
-Bengaluru recorded the highest city-level revenue among the cities presented in the dashboard.
-
-## Tools Used
-
-- Microsoft Power BI
-- Microsoft Excel
-- Data Analysis
-- Data Visualisation
-- Dashboard Development
-
-## Dashboard Features
-
-- Monthly revenue trend analysis
-- Product category volume analysis
-- Revenue distribution by city
-- State-level purchasing activity
-- Revenue by product category
-- Top states by revenue percentage
-- Key Performance Indicators (KPIs)
-
-## Project Objective
-
-The objective of this analysis is to transform sales data into meaningful business insights that can support decision-making around product performance, geographic markets, revenue growth, and customer purchasing behaviour.
+## Repository structure
+- data/ : raw and cleaned dataset
+- dashboard/ : Excel workbook
+- images/ : dashboard screenshot
 
 ## Author
 
